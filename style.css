@@ -1,0 +1,152 @@
+.custom-Container-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    padding: 20%;
+    position: relative;
+}
+
+.custom-Container-start h2{
+    font-weight: 750;
+}
+
+.custom-Container-start #startquiz{
+    position: relative;
+    transform: translateY(1.5rem);
+}
+
+.custom-Container-start #highscores{
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+.custom-Container-quiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    padding: 12%;
+    position: relative;
+}
+
+.custom-Container-quiz #timer {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+
+.custom-Container-quiz #questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.custom-Container-quiz #a,
+.custom-Container-quiz #b,
+.custom-Container-quiz #c,
+.custom-Container-quiz #d {
+    justify-content: center;
+    width: 600px;
+    height: 60px;
+    font-size: 1.4rem;
+}
+
+.custom-Container-quiz #result{
+    font-style: italic;
+    transition: opacity 0.5s;
+}
+
+.custom-Container-score{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    position: relative;
+}
+
+.custom-Container-score #userScore{
+    position: absolute;
+    top: 40%;
+    left: 46%;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.custom-Container-score #playAgain{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.custom-Container-score #saveScore{
+    position: absolute;
+    top: 50%;
+    right: 40%;
+}
+.custom-Container-score #homeButton{
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+.custom-Container-score #highscores{
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+.custom-Container-savescore{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    position: relative;
+}
+
+.custom-Container-savescore #scoreform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-Container-savescore #initials{   
+    width: 150px;
+}
+
+.custom-Container-highscores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    padding: 20%;
+    position: relative;
+}
+
+.custom-Container-highscores h2{
+    font-weight: 750;
+}
+
+.custom-Container-highscores #homeButton{
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+.custom-Container-highscores ul{
+    font-size: 1.2rem;
+    font-weight: 600;
+    list-style-type: none;
+}
+
+
+
